@@ -19,6 +19,9 @@
 		<baseNameMakerPlayer>NamerFactionPlayerColonyRandomized</baseNameMakerPlayer>
 		<factionNameMakerPlayer>NamerFactionBasePlayerColonyRandomized</factionNameMakerPlayer>
     <techLevel>Industrial</techLevel>
+	<hairTags>
+		<li>NonExisting</li>
+	</hairTags>
     <backstoryCategory>Civil</backstoryCategory>
     <homeIconPath>World/WorldObjects/DefaultFactionBase</homeIconPath>
     <expandingIconTexture>World/WorldObjects/DefaultFactionBase</expandingIconTexture>

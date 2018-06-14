@@ -54,6 +54,7 @@
                 <li>Male</li>
                 <li>Female</li>
                 </alienbodytypes>
+				<customHeadDrawSize>(0.5,0.5)</customHeadDrawSize>
                 <useGenderedHeads>false</useGenderedHeads>
             <alienskincolorgen Class="ColorGenerator_Options">
             <options>
@@ -99,17 +100,7 @@
             </li>
             </options>
             </alienskincolorgen>
-                       	<alienskinsecondcolorgen Class="ColorGenerator_Options">
-                <options>
-                    <li>
-                        <weight>10</weight>
-                        <only>RGBA(1.0,1.0,1.0,1)</only>
-                    </li>
-                </options>
-            </alienskinsecondcolorgen>
             </alienPartGenerator>
-			<chemicalSettings>	
-		    </chemicalSettings>
         </generalSettings>
         <graphicPaths>
             <li>
@@ -270,8 +261,24 @@
       </litterSizeCurve>
       <lifeStageAges>
         <li>
-          <def>AdultStageGhoul</def>
+          <def>HumanlikeBaby</def>
           <minAge>0</minAge>
+        </li>
+        <li>
+          <def>HumanlikeToddler</def>
+          <minAge>1.2</minAge>
+        </li>
+        <li>
+          <def>HumanlikeChild</def>
+          <minAge>4</minAge>
+        </li>
+        <li>
+          <def>HumanlikeTeenager</def>
+          <minAge>13</minAge>
+        </li>
+        <li>
+          <def>HumanlikeAdult</def>
+          <minAge>18</minAge>
         </li>
       </lifeStageAges>
       <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>

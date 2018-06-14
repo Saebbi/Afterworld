@@ -35,7 +35,7 @@
 	<autoFlee>false</autoFlee>
 	<humanlikeFaction>true</humanlikeFaction>
 	<hairTags>
-		<li>Tribal</li>
+		<li>NonExisting</li>
 	</hairTags>
 	<naturalColonyGoodwill>
 		<min>-100</min>
