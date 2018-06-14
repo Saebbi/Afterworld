@@ -20,7 +20,7 @@
 		<factionNameMakerPlayer>NamerFactionBasePlayerColonyRandomized</factionNameMakerPlayer>
     <techLevel>Industrial</techLevel>
     <backstoryCategory>Civil</backstoryCategory>
-    <homeIconPath>World/WolvxBaseIcon</homeIconPath>
+    <homeIconPath>World/WorldObjects/DefaultFactionBase</homeIconPath>
     <expandingIconTexture>World/WorldObjects/DefaultFactionBase</expandingIconTexture>
     <startingResearchTags>
       <li>ClassicStart</li>
