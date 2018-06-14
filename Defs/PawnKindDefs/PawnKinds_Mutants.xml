@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  
+  
+  <PawnKindDef Name="Base_GhoulRace" Abstract="True">
+    <defaultFactionType>Mutant_Enclave</defaultFactionType>
+    <race>Ghoul_Race</race>
+    <baseRecruitDifficulty>0.7</baseRecruitDifficulty>
+    <apparelAllowHeadwearChance>.5</apparelAllowHeadwearChance>
+	<invNutrition>2.55</invNutrition>
+    <invFoodDef>Pemmican</invFoodDef>
+  </PawnKindDef>
+
+  <PawnKindDef Name="Base_Ghoul" ParentName="Base_GhoulRace" Abstract="True">
+    <label>clansman</label>
+    <combatPower>295</combatPower>
+  </PawnKindDef>
+
+
+  <PawnKindDef ParentName="Base_Ghoul">
+    <defName>Ghoul_Warrior</defName>
+    <label>ghoul warrior</label>
+	<gearHealthRange>
+		<min>0.5</min>
+		<max>1.9</max>
+	</gearHealthRange>
+    <weaponMoney>
+		<min>250</min>
+		<max>700</max>
+    </weaponMoney>
+    <weaponTags>
+		<li>NonNeolithicOnlyMelee</li>
+		<li>Gun</li>
+    </weaponTags>
+    <apparelMoney>
+		<min>150</min>
+		<max>500</max>
+    </apparelMoney>
+	<apparelTags>
+		<li>Outlander</li>
+    </apparelTags>
+    <techHediffsMoney>
+      <min>0</min>
+      <max>120</max>
+    </techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+    </techHediffsTags>
+    <techHediffsChance>0.25</techHediffsChance>
+  </PawnKindDef>
+
+</Defs>

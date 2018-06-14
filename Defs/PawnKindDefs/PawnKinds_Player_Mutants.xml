@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <PawnKindDef Abstract="True" Name="BaseGhoulPawnKind">
+    <race>Ghoul_Race</race>
+    <combatPower>40</combatPower>
+    <baseRecruitDifficulty>0.50</baseRecruitDifficulty>
+    <isFighter>false</isFighter>
+    <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+    <forceNormalGearQuality>true</forceNormalGearQuality>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="BaseGhoulPawnKind">
+    <defName>GhoulRefugee</defName>
+    <label>colonist</label>
+    <defaultFactionType>MutantPlayerColony</defaultFactionType>
+    <apparelTags>
+      <li>Outlander</li>
+    </apparelTags>
+    <apparelMoney>
+      <min>250</min>
+      <max>600</max>
+    </apparelMoney>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="BaseGhoulPawnKind">
+    <defName>GhoulSlave</defName>
+    <label>colonist</label>
+    <defaultFactionType>MutantPlayerColony</defaultFactionType>
+    <apparelTags>
+      <li>Outlander</li>
+    </apparelTags>
+    <apparelMoney>
+      <min>50</min>
+      <max>160</max>
+    </apparelMoney>
+  </PawnKindDef>
+  
+</Defs>

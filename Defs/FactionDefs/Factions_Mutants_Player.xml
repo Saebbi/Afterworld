@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <FactionDef Abstract="True" Name="MutantsFactionBase">
+    <colorSpectrum>
+      <li>(0, 0.737, 0.847)</li>
+      <li>(0.8, 0.737, 0.147)</li>
+    </colorSpectrum>
+  </FactionDef>
+  
+  <FactionDef Parent="MutantsFactionBase">
+    <defName>MutantPlayerColony</defName>
+    <label>Mutant Colony</label>
+    <description>Your own colony.</description>
+    <isPlayer>true</isPlayer>
+    <basicMemberKind>GhoulRefugee</basicMemberKind>
+    <pawnsPlural>colonists</pawnsPlural>
+    <baseNameMaker>NamerFactionBasePlayerColony</baseNameMaker>
+		<baseNameMakerPlayer>NamerFactionPlayerColonyRandomized</baseNameMakerPlayer>
+		<factionNameMakerPlayer>NamerFactionBasePlayerColonyRandomized</factionNameMakerPlayer>
+    <techLevel>Industrial</techLevel>
+    <backstoryCategory>Civil</backstoryCategory>
+    <homeIconPath>World/WolvxBaseIcon</homeIconPath>
+    <expandingIconTexture>World/WolvxBaseIcon</expandingIconTexture>
+    <startingResearchTags>
+      <li>ClassicStart</li>
+    </startingResearchTags>
+  </FactionDef>
+
+</Defs>

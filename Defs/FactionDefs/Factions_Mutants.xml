@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <FactionDef>
+		<defName>Mutant_Enclave</defName>
+		<label>Mutant Enclave</label>
+	<description>A faction formed by outcasts, mostly mutants in order to protect themselves.</description>
+	<pawnsPlural>Mutants</pawnsPlural>
+	<baseSelectionWeight>1</baseSelectionWeight>
+	<requiredCountAtGameStart>1</requiredCountAtGameStart>
+	<rescueesCanJoin>true</rescueesCanJoin>
+	<canMakeRandomly>true</canMakeRandomly>
+		<raidCommonalityFromPointsCurve>
+		  <points>
+		    <li>(40, 3)</li>
+			<li>(150, 2)</li>
+			<li>(500, 1)</li>
+			<li>(800, .25)</li>
+		  </points>
+		</raidCommonalityFromPointsCurve>
+	<canSiege>true</canSiege>
+	<canStageAttacks>false</canStageAttacks>
+	<leaderTitle>Master</leaderTitle>
+	<expandingIconTexture>GiantsFaction</expandingIconTexture>
+	<startingGoodwill>
+	  <min>-90</min>
+	  <max>30</max>
+	</startingGoodwill>
+	<factionNameMaker>NamerFactionTribal</factionNameMaker>
+	<baseNameMaker>NamerFactionBaseTribal</baseNameMaker>
+	<pawnNameMaker>NamerPersonTribal</pawnNameMaker>
+	<techLevel>Industrial</techLevel>
+	<backstoryCategory>Civil</backstoryCategory>
+	<mustStartOneEnemy>false</mustStartOneEnemy>
+	<autoFlee>false</autoFlee>
+	<humanlikeFaction>true</humanlikeFaction>
+	<hairTags>
+		<li>Tribal</li>
+	</hairTags>
+	<naturalColonyGoodwill>
+		<min>-100</min>
+		<max>10</max>
+	</naturalColonyGoodwill>
+	<allowedArrivalTemperatureRange>
+		<min>-60</min>
+		<max>80</max>
+	</allowedArrivalTemperatureRange>
+	<pawnGroupMakers>
+      <li>
+        <kindDef>Normal</kindDef>
+        <options>
+          <Ghoul_Warrior>300</Ghoul_Warrior>
+        </options>
+      </li>
+      <li>
+        <kindDef>FactionBase</kindDef>
+        <options>
+          <Ghoul_Warrior>300</Ghoul_Warrior>
+        </options>
+      </li>
+	</pawnGroupMakers>
+	<homeIconPath>GiantsFaction</homeIconPath>
+  </FactionDef>
+  
+  
+</Defs>
