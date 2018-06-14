@@ -21,7 +21,7 @@
     <techLevel>Industrial</techLevel>
     <backstoryCategory>Civil</backstoryCategory>
     <homeIconPath>World/WolvxBaseIcon</homeIconPath>
-    <expandingIconTexture>World/WolvxBaseIcon</expandingIconTexture>
+    <expandingIconTexture>World/WorldObjects/DefaultFactionBase</expandingIconTexture>
     <startingResearchTags>
       <li>ClassicStart</li>
     </startingResearchTags>
