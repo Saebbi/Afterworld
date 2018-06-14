@@ -21,7 +21,7 @@
 	<canSiege>true</canSiege>
 	<canStageAttacks>false</canStageAttacks>
 	<leaderTitle>Master</leaderTitle>
-	<expandingIconTexture>GiantsFaction</expandingIconTexture>
+	<expandingIconTexture>World/WorldObjects/DefaultFactionBase</expandingIconTexture>
 	<startingGoodwill>
 	  <min>-90</min>
 	  <max>30</max>
